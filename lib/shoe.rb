@@ -8,7 +8,7 @@ class Shoe
     @brand
   end
   def cobble
-    puts Shoe.condition
+    puts ${condition}
     puts "Your shoe is as good as new!"
   end
 end
