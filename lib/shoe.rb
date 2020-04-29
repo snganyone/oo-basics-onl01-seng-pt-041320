@@ -8,7 +8,7 @@ class Shoe
     @brand
   end
   def cobble
-    if condition == old
+    if condition == "old"
       puts "Your shoe is as good as new!"
     end
   end
